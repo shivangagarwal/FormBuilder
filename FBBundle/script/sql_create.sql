@@ -1,0 +1,1 @@
+CREATE TABLE fb_user  (name VARCHAR(20), contact_no VARCHAR(15), email VARCHAR(50), password VARCHAR(50), country VARCHAR(50), city VARCHAR(50), type_of_user INT(11) DEFAULT 0, create_date DATE, id INT(11) AUTO_INCREMENT PRIMARY KEY);
